@@ -35,3 +35,10 @@ Homework 03
     [ 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1],
     [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0]
    ]
+   
+3) MNIST
+   (e) The number of correctly classified images is 9790.
+   (f) Image at index 8 was misclassified.
+       The actual label of the image is 5.
+       The predicted label of the image is 6.
+       By inspecting the above image(at index 8) visually, it is obvious for the model to predict the image as 6 instead of 5, because the image is ambiguosly 5 and 6 to the human eye.
